@@ -21,7 +21,7 @@ public class AddNewBook {
         System.out.println("Enter the Author:");
         String author = a.nextLine();
 
-        System.out.println("Recorded\n\n\n");
+        System.out.println("Book successfully added\n\n");
     }
 
 
