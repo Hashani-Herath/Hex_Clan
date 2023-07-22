@@ -12,7 +12,12 @@ public class RemoveBook {
         String up=c.nextLine();
         //have to  complete
         switch(up){
-            case "Y": case "y" : /**/
+            case "Y": case "y" :
+                System.out.println("Successfully removed...\n"); break;
+            case "N": case "n" :
+                System.out.println("Not Removed"); break;
+            default:
+                System.out.println("Something went wrong");
         }
 
         System.out.println("Removed\n\n");

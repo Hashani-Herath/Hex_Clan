@@ -19,7 +19,7 @@ public class Main {
             System.out.print("Enter Option : ");
             Scanner input = new Scanner(System.in);
             option = input.nextInt();
-            System.out.println(option);
+            //System.out.println(option);
 
             switch(option){
                 case 1 :    AddNewBook book1 = new AddNewBook(); book1.AddBook(); break;
@@ -27,8 +27,8 @@ public class Main {
                 case 3 :    RemoveBook book3 = new RemoveBook(); book3.Remove_Book(); break;
                 case 4 :    LendBook book4 = new LendBook(); book4.Lend_Book(); break;
                 case 5 :    ReturnBook book5 = new ReturnBook(); book5.Return_Book(); break;
-                case 6 :    break;
-//                case 7 :
+                //case 6 :    break;
+                case 7 :    break;
                 default:
                     System.out.println("Invalid Enter Again");
                     option = input.nextInt();
